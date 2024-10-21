@@ -102,6 +102,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
+    wdm (0.2.0)
     webrick (1.8.2)
 
 PLATFORMS
@@ -113,6 +114,7 @@ DEPENDENCIES
   jekyll-readme-index
   jekyll-remote-theme
   jemoji
+  wdm (>= 0.1.0)
   webrick
 
 BUNDLED WITH

@@ -1,16 +1,14 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
-description: >
-  Build Jekyll site with the GitBook style.
+title:            Study
+longtitle:        Study Records of Jihae Lee
+author:           Jihae Lee
+email:            jihaei878@gmail.com
+description: Study Records
 
 version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://easyssun.github.io'
-# baseurl:          '/jekyll-gitbook'
 baseurl:          '/study'
 rss:              RSS
 
@@ -57,6 +55,10 @@ collections:
   others:
     output: true
     permalink: /:collection/:path/
+  posts:
+    output: true
+    permalink: /:categories/:year-:month-:day-:title:output_ext
+    order:    -date
 
 ordered_collections:
   - posts
