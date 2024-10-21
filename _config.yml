@@ -11,7 +11,7 @@ gitbook_version:  3.2.3
 
 url:              'https://easyssun.github.io'
 # baseurl:          '/jekyll-gitbook'
-baseurl:          'study'
+baseurl:          '/study'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
